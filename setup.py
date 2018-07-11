@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-
-# Learn more: https://github.com/kennethreitz/setup.py
-
 from setuptools import setup, find_packages
 
 
@@ -14,11 +11,12 @@ with open('LICENSE') as f:
 setup(
     name='sample',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='Experience Replay Library for RL',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Jun Yamada',
+    author_email='sample@sample.com',
+    install_requires=['numpy'],
+    url='https://github.com/junjungoal/experience_replay_rl',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
